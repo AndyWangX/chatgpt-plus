@@ -10,7 +10,7 @@ services:
       - DEBUG=false
       - CONFIG_FILE=config.toml
     ports:
-      - "6789:5678"
+      - "5678:5678"
     volumes:
       - ./conf/config.toml:/var/www/app/config.toml
       - ./static:/var/www/app/static
