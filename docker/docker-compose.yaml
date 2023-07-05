@@ -22,7 +22,7 @@ services:
     container_name: chatgpt-plus-vue
     restart: always
     ports:
-      - "8080:8080"
+      - "8082:8080"
     volumes:
       - ./logs/nginx:/var/log/nginx
       - ./conf/nginx/conf.d:/etc/nginx/conf.d
